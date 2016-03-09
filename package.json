@@ -1,0 +1,32 @@
+{
+  "name": "simple-dns-proxy",
+  "version": "1.0.0",
+  "description": "A simple dns proxy with RFC2136 (nsupdate) support written in node.js",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielealbano/node-simple-dns-proxy.git"
+  },
+  "keywords": [
+    "dns",
+    "proxy",
+    "nsupdate",
+    "nslookup",
+    "dnsmasq",
+    "bind"
+  ],
+  "author": "Daniele Salvatore Albano",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/danielealbano/node-simple-dns-proxy/issues"
+  },
+  "homepage": "https://github.com/danielealbano/node-simple-dns-proxy#readme",
+  "dependencies": {
+    "async": "^1.5.2",
+    "native-dns": "^0.7.0"
+  }
+}

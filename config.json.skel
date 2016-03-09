@@ -1,0 +1,15 @@
+{
+	"upstream": {
+		"address": "8.8.8.8",
+		"port": 53
+	},
+
+	"bindings": [
+		{
+			"address": "127.0.0.1",
+			"port": 53
+		}
+	],
+
+	"overridedRecordsFile": "overridedRecords.json"
+}
